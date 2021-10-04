@@ -1,0 +1,20 @@
+cont="s"
+while cont=="s" or cont=="S":
+    primeiro = int(input("Primeiro numero: "))
+    segundo  = int(input("Segundo numero : "))
+    print("1. Soma")
+    print("2. Subtração")
+    print("3. Multiplicação")
+    print("4. Divisão")
+    op=int(input("Qual a operação a executar? "))
+    if op==1:
+        res=primeiro+segundo
+    if op==2:
+        res=primeiro-segundo    
+    if op==3:
+        res=primeiro*segundo
+    if op==4:
+        res=primeiro/segundo
+    print("Resultado: ",res)
+    cont  = input("Continuar? s ou n?")
+print("fim")
